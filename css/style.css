@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Use{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+}
+.Header{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 7vh;
+}
+.Footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 7vh;
+    margin-top: -12.5px;
+}
+.Navi{
+    background: rgb(50, 48, 48);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 7vh;
+}
+.User{
+    display: flex;
+    padding: 10px 0 ;
+}
+.card1{
+    flex: 1;
+    height: 50vh;
+    background: rgba(193, 193, 193, 0.664);
+}
+.Search{
+    background: rgb(169, 168, 168);
+    margin: 3vh;
+    padding: 10px;
+    height: 18vh;
+}
+.Related{
+    background: rgb(142, 141, 141);
+    margin: 3vh;
+    padding: 10px;
+    height: 19vh;
+}
+.card2{
+    flex: 2;
+    margin-right: -20px;
+    padding: 20px;
+}
+.Main{
+    background: rgb(189, 188, 188);
+    padding: 10px;
+    height: 10vh;
+    margin-top: -20px;
+    
+}
+.Comments{
+    background: rgb(176, 174, 174);
+    padding: 10px;
+    height: 30vh;
+}
